@@ -53,5 +53,7 @@ WHERE (de.to_date = '9999-01-01')
     AND (e.birth_date BETWEEN '1965-01-01' AND '1962-12-31')
 ORDER BY e.emp_no;
 
-SELECT * FROM mentorship_eligibility_II; ```
+SELECT * FROM mentorship_eligibility_II; 
+```
+
 returns 73,851 employees. But since not every single employee would enroll in the mentorship program it would be safer to expand the birth_date window to 5 years, i.e (birth_date BETWEEN '1960-01-01' AND '1965-12-31')
