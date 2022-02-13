@@ -32,7 +32,9 @@ As mentioned above, 72,458 roles will need to be filled as the "silver tsunami" 
 
 A new query and a quick change to the parameters to increase the amount of employees eligible for the program would be to expand the birth_date window 3 years from between 1965-1965 to between 1962-1965.
 
-The query ```
+The query 
+
+```
 SELECT DISTINCT ON(e.emp_no) e.emp_no,
     e.first_name,
     e.last_name,
